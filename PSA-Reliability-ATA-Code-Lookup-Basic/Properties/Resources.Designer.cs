@@ -61,17 +61,18 @@ namespace PSA_Reliability_ATA_Code_Lookup_Basic.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &quot;04-00   ENTERED IN ERROR/ DUPLICATE/ ADMINISTRATIVE/ UPDATE MXI ONLY&quot;
-        ///&quot;05-00   TIME LIMITS/MAINTENANCE CHECKS (Logbook, AWR Required, document corrections) &quot;
-        ///&quot;05-10   TIME LIMITS&quot;
-        ///&quot;05-20   SCHEDULED MAINTENANCE (APU HR &amp; CYC Record) &quot;
-        ///&quot;05-21   ZONAL INSPECTIONS&quot;
-        ///&quot;05-50   UNSCHEDULED INSPECTION-GENERAL (Unsched insps - *First Defect ONLY* not unplanned maintenance) &quot;
-        ///&quot;06-00   DIMENSIONS AND AREAS&quot;
-        ///&quot;06-40   DIMENSIONS AND AREAS - ACCESS&quot;
-        ///&quot;07-00   LIFTING/SHORING&quot;
-        ///&quot;07-10   JACKING&quot;
-        ///&quot;08-10   WEIGHTIN [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to 00-00 VOID /ENTERED IN ERROR /DUPLICATE DEFECT
+        ///01-00 MAINTENANCE DOCUMENTATION MISSING (NOT 25-10)
+        ///02-00 OPERATIONS DOCUMENTATION (NOT 25-10)
+        ///05-00 AML REVIEW LOGBOOK ISSUES (AWR REQUIRED, DOCUMENT CORRECTIONS)
+        ///05-20 SCHEDULED MAINTENANCE (APU HR &amp; CYC RECORD)
+        ///05-50 UNSCHEDULED INSPECTIONS (*FIRST DEFECT ONLY* NOT UNPLANNED MAINTENANCE)
+        ///05-26 TEST FLIGHT/FERRY (OCF, FCF, FERRY FLIGHT INSPECTION, POST OCF AWR)
+        ///07-00 LIFTING/SHORING
+        ///07-10 JACKING
+        ///08-10 WEIGHING AND BALANCING
+        ///08-20 LEVELING
+        ///09-20 TO [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ATA_Lookup_Export {
             get {

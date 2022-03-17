@@ -38,11 +38,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="row">
+        <div class="row" style="margin-left:7px;margin-right:7px">
             <div class="col-md-8">
                 <div class="form-group">
                     <H1>ATA: </H1>
-
+                    Enter search term:
                     <asp:TextBox runat="server" ID="txtAutoComplete" CssClass="autosuggest"></asp:TextBox>
                 </div>
             </div>
